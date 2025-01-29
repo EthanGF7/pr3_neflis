@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 
+import '../componentes/Inicio_sesion.dart';
+
 class Netflix extends StatelessWidget {
   const Netflix({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: InicioSesion(),
+        
+      ),
+    );
 
 
     //Fondo
